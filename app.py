@@ -3,7 +3,6 @@ from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
-from multiprocessing import Process
 import re
 import threading
 
@@ -12,7 +11,7 @@ from nltk.tokenize import TweetTokenizer
 from collections import Counter
 
 from threading import Thread, Event
-from flask import Flask, render_template, url_for, copy_current_request_context, request
+from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 
 nltk.data.path.append('./nltk_data')
