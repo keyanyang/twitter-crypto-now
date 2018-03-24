@@ -1,0 +1,4 @@
+tweepy==3.6.0
+nltk==3.2.5
+Flask==0.12.2
+flask-socketio==2.9.6
